@@ -8,7 +8,7 @@ pipeline {
     environment {
         DOCKER_CREDS     = credentials('docker')
         SONAR            = credentials('sonar')
-        APP_IMAGE        = "jithendarramagiri1998/snake-game:latest"
+        APP_IMAGE        = "adarshbarkunta/snake-game:latest"
         CLUSTER_NAME     = "my-eks-cluster"
         REGION           = "ap-south-1"
         SERVICE_NAME     = "snake-game"
