@@ -22,7 +22,7 @@ pipeline {
 
         stage('Checkout Code') {
             steps {
-                git 'https://github.com/Jithendarramagiri1998/snake-game.git'
+                git 'https://github.com/adarsh0331/Project_22_End_to_End_Realtime.git'
             }
         }
 
